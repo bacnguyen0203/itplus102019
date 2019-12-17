@@ -17,9 +17,9 @@
     <?php
         $demo = "Ha noi la thu do cua viet nam";
         //đếm số chữ trong chuỗi
-        echo "<br> str_word_count(): " . str_word_count($demo);
+        echo "<br> số kí tự là: " . str_word_count($demo);
 
-        //đếm số chữ trong chuỗi
+        //đếm số chữ trong chuỗi là strlen còn đảo ngược là strrev
         echo "<br> strlen(): " . strlen($demo);
 
     // strpos
