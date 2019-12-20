@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+< lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<>
     <pre>
         các cách khai báo mảng
         cách 1 sử dụng []
@@ -12,7 +12,7 @@
         cách 3 khai báo chỉ số khi khai báo mảng
         cách 4 khai báo mảng trước và thêm các phần tử cho mảng sau đó
     </pre>
-    <? php
+    <?php
         //cách 1
     $tiente = ["USD", "AUD", "EURO", "HKD"];
 
@@ -32,9 +32,6 @@
         $tiente[1] = "AUD";
         $tiente[2] = "EURO";
         $tiente[3] = "HKD";
-    ?>
-</body>
-</html>
     ?>
 </body>
 </html>
