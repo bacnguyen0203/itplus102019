@@ -1,8 +1,9 @@
 <?php
 // Nạp file kết nối cơ sở dữ liệu
 include_once "connect.php";
+
 // gọi đến kết nối CSDL thì dùng $connectMysql
-//var_dump($connectMysql);
+var_dump($connectMysql);
 $sql = "SELECT * FROM sinhvien";
 $stmt = $connectMysql->prepare($sql);
 $stmt->execute();
@@ -50,16 +51,16 @@ echo "</pre>";
                 <tbody>
 
 
-                <?php foreach($data as $i => $sinhvien) {?>
+                <?php foreach($data as $i => $sinhvien) { ?>
                     <tr>
                         <td><?php echo $sinhvien["id"] ?></td>
                         <td><?php echo $sinhvien["ten"] ?></td>
                         <td><?php echo $sinhvien["diem"] ?></td>
                         <td><?php echo $sinhvien["truong"] ?></td>
                         <td>
-                            <a href="view.php" class="btn btn-success">Xem chi tiết</a>
-                            <a href="edit.php" class="btn btn-warning">Sửa</a>
-                            <a href="delete.php" class="btn btn-danger">Xóa</a>
+                            <a href="view.php?id=<?php echo $sinhvien["id"] ?>" class="btn btn-success">Xem chi tiết</a>
+                            <a href="edit.php?id=<?php echo $sinhvien["id"] ?>" class="btn btn-warning">Sửa</a>
+                            <a href="delete.php?id=<?php echo $sinhvien["id"] ?>" class="btn btn-danger">Xóa</a>
                         </td>
                     </tr>
                 <?php } ?>
