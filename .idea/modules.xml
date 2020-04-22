@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://D:/Study/Phát triển ứng dụng web/Thuc Hanh/.idea/Thuc Hanh.iml" filepath="D:/Study/Phát triển ứng dụng web/Thuc Hanh/.idea/Thuc Hanh.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/itplus102019.iml" filepath="$PROJECT_DIR$/.idea/itplus102019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../simplephpcart/.idea/simplephpcart.iml" filepath="$PROJECT_DIR$/../simplephpcart/.idea/simplephpcart.iml" />
     </modules>
   </component>
 </project>

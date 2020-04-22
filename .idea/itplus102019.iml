@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Thuc Hanh" />
     <orderEntry type="module" module-name="Thuc Hanh" />
+    <orderEntry type="module" module-name="simplephpcart" />
   </component>
 </module>

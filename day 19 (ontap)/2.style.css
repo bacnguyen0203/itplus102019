@@ -1,0 +1,34 @@
+body {
+    padding: 80px 320px;
+}
+
+#button {
+    margin-right: 50px;
+}
+.radio-inline {
+    margin-right: 30px;
+
+}
+
+.luongcantinh {
+    float: left;
+    width: 430px;
+}
+
+.donvi {
+    float: right;
+    width: 430px;
+    margin-right: 0px;
+}
+
+#button1 {
+    float: left;
+    width: 430px;
+    margin-top: 20px;
+}
+
+#button2 {
+    float: right;
+    width: 430px;
+    margin-top: 20px;
+}
