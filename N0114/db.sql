@@ -1,0 +1,7 @@
+CREATE DATABASE banhang;
+
+CREATE TABLE mathang (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    tenmathang VARCHAR(30) NOT NULL,
+    gia INT(8) NOT NULL
+);
